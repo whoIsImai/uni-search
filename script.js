@@ -13,13 +13,11 @@ async function GetCountries() {
         for (const country in jsonData.data) {
             if (jsonData.data.hasOwnProperty(country)) {
                var mcountry = jsonData.data[country]
-               console.log(mcountry.country)
                 ListOfCountrie.innerHTML += `<h4>${mcountry.country}</h4><h4>,  </h4>  `   
             }
         }
     } catch (error) {
         ListOfCountrie.innerHTML = "<h4>Could not get countries</h4>"
-        console.log(error)
     }
 }
 GetCountries();
