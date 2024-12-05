@@ -1,4 +1,4 @@
-#Uni-Search 🌍🎓
+Uni-Search 🌍🎓
 
 A responsive and intuitive web application built with HTML, CSS, and JavaScript that allows users to search for universities by country. Leveraging third-party APIs, Uni-Search provides users with comprehensive details about universities, including their names, URLs, and additional information.
 
