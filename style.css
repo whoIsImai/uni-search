@@ -58,7 +58,7 @@ h4{
         padding-bottom: 1em;
     }
 }
-/*Big nyana screen thsi One soh */
+/*Bigger screens this One soh */
 @media screen and (min-width:992px) {
     .search-box{
         margin-left: 2em;

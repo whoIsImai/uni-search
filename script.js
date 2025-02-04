@@ -24,6 +24,7 @@ GetCountries();
 
 async function GetUniversities() {
     try {
+        results.innerHTML = ""
     let word = countrySearch.value;
     const Uni_Url = `http://universities.hipolabs.com/search?country=${word}`;
         const Resp = await fetch(Uni_Url);
